@@ -78,82 +78,10 @@ body {
     color: var(--primary-yellow);
 }
 
-.goat-logo {
-    position: relative;
-}
-
-.goat-head {
-    position: relative;
+.logo-image {
     width: 40px;
     height: 40px;
-}
-
-.goat-horn {
-    position: absolute;
-    width: 8px;
-    height: 15px;
-    background: linear-gradient(to top, var(--primary-yellow), var(--dark-yellow));
-    border-radius: 4px 4px 0 0;
-    top: -5px;
-}
-
-.goat-horn.left {
-    left: 8px;
-    transform: rotate(-15deg);
-}
-
-.goat-horn.right {
-    right: 8px;
-    transform: rotate(15deg);
-}
-
-.goat-face {
-    width: 32px;
-    height: 28px;
-    background: linear-gradient(135deg, var(--primary-yellow), var(--dark-yellow));
-    border-radius: 50% 50% 40% 40%;
-    position: relative;
-    top: 5px;
-    left: 4px;
-}
-
-.goat-eye {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: var(--bg-dark);
-    border-radius: 50%;
-    top: 8px;
-}
-
-.goat-eye.left-eye {
-    left: 7px;
-}
-
-.goat-eye.right-eye {
-    right: 7px;
-}
-
-.goat-snout {
-    position: absolute;
-    width: 6px;
-    height: 3px;
-    background: var(--dark-yellow);
-    border-radius: 0 0 50% 50%;
-    bottom: 8px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.goat-beard {
-    position: absolute;
-    width: 8px;
-    height: 12px;
-    background: linear-gradient(to bottom, var(--primary-yellow), transparent);
-    border-radius: 0 0 50% 50%;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -618,9 +546,11 @@ body {
     align-items: center;
 }
 
-.large-goat-logo {
-    transform: scale(3);
-    opacity: 0.8;
+.large-logo-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    opacity: 0.9;
     filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.3));
 }
 
@@ -737,6 +667,12 @@ body {
     color: var(--primary-yellow);
 }
 
+.footer-logo-image {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
 .footer-text {
     color: var(--text-muted);
     font-size: 0.875rem;
@@ -807,7 +743,9 @@ body {
     }
 
     .large-goat-logo {
-        transform: scale(2);
+    .large-logo-image {
+        width: 150px;
+        height: 150px;
     }
 
     .game-detail-title {
