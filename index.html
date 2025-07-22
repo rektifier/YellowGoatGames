@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Goat Games - Premium TTRPG Experiences</title>
+    <meta name="description" content="Yellow Goat Games creates immersive tabletop roleplaying games that bring your adventures to life. Discover our collection of premium TTRPG experiences.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="goat-logo">
+                    <div class="goat-head">
+                        <div class="goat-horn left"></div>
+                        <div class="goat-horn right"></div>
+                        <div class="goat-face">
+                            <div class="goat-eye left-eye"></div>
+                            <div class="goat-eye right-eye"></div>
+                            <div class="goat-snout"></div>
+                        </div>
+                        <div class="goat-beard"></div>
+                    </div>
+                </div>
+                <span class="company-name">Yellow Goat Games</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#games" class="nav-link">Games</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Forge Your <span class="highlight">Epic Tales</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Immersive tabletop roleplaying games that transform ordinary moments into extraordinary adventures
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('games')">
+                        Explore Our Games
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('about')">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="floating-element" style="--delay: 0s;"></div>
+                <div class="floating-element" style="--delay: 2s;"></div>
+                <div class="floating-element" style="--delay: 4s;"></div>
+            </div>
+        </section>
+
+        <section id="games" class="games-section">
+            <div class="container">
+                <h2 class="section-title">Our Featured Games</h2>
+                <p class="section-subtitle">Discover worlds of endless possibility</p>
+                
+                <div class="games-grid">
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="placeholder-image fantasy"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Realm of Shadows</h3>
+                            <p class="card-description">A dark fantasy adventure where heroes confront ancient evils in a world teetering on the edge of oblivion.</p>
+                            <div class="card-tags">
+                                <span class="tag">Fantasy</span>
+                                <span class="tag">Horror</span>
+                                <span class="tag">Campaign</span>
+                            </div>
+                            <button class="card-button" onclick="scrollToSection('realm-of-shadows')">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="placeholder-image sci-fi"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Stellar Frontiers</h3>
+                            <p class="card-description">Navigate the cosmos as interstellar explorers uncovering the mysteries of distant galaxies and alien civilizations.</p>
+                            <div class="card-tags">
+                                <span class="tag">Sci-Fi</span>
+                                <span class="tag">Exploration</span>
+                                <span class="tag">Adventure</span>
+                            </div>
+                            <button class="card-button" onclick="scrollToSection('stellar-frontiers')">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="placeholder-image mystery"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Whispers in the Fog</h3>
+                            <p class="card-description">A Victorian mystery where investigators unravel supernatural conspiracies in the gaslit streets of London.</p>
+                            <div class="card-tags">
+                                <span class="tag">Mystery</span>
+                                <span class="tag">Victorian</span>
+                                <span class="tag">Investigation</span>
+                            </div>
+                            <button class="card-button" onclick="scrollToSection('whispers-in-the-fog')">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="realm-of-shadows" class="game-detail-section">
+            <div class="container">
+                <div class="game-detail-content">
+                    <div class="game-detail-header">
+                        <h2 class="game-detail-title">Realm of Shadows</h2>
+                        <div class="game-detail-tags">
+                            <span class="tag">Fantasy</span>
+                            <span class="tag">Horror</span>
+                            <span class="tag">Campaign</span>
+                        </div>
+                    </div>
+                    <div class="game-detail-body">
+                        <div class="game-detail-text">
+                            <p class="game-detail-description">
+                                In the Realm of Shadows, darkness creeps across the land as ancient evils stir from their slumber. 
+                                Heroes must navigate a world where light itself is a precious commodity, and every shadow could 
+                                hide unspeakable horrors.
+                            </p>
+                            <p class="game-detail-description">
+                                This comprehensive campaign setting includes detailed lore, custom mechanics for shadow magic, 
+                                and a complete adventure path that will challenge even the most experienced players. Face 
+                                corrupted nobles, twisted creatures, and the very essence of darkness itself.
+                            </p>
+                            <div class="game-features">
+                                <h4>What's Included:</h4>
+                                <ul>
+                                    <li>200+ page campaign setting guide</li>
+                                    <li>12 interconnected adventures</li>
+                                    <li>New shadow magic system</li>
+                                    <li>50+ unique monsters and NPCs</li>
+                                    <li>Custom character backgrounds</li>
+                                    <li>Detailed maps and handouts</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="game-detail-image">
+                            <div class="placeholder-image fantasy large"></div>
+                        </div>
+                    </div>
+                    <div class="game-detail-footer">
+                        <button class="btn btn-primary">Coming Soon</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('games')">Back to Games</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stellar-frontiers" class="game-detail-section">
+            <div class="container">
+                <div class="game-detail-content">
+                    <div class="game-detail-header">
+                        <h2 class="game-detail-title">Stellar Frontiers</h2>
+                        <div class="game-detail-tags">
+                            <span class="tag">Sci-Fi</span>
+                            <span class="tag">Exploration</span>
+                            <span class="tag">Adventure</span>
+                        </div>
+                    </div>
+                    <div class="game-detail-body">
+                        <div class="game-detail-text">
+                            <p class="game-detail-description">
+                                Embark on an epic journey across the galaxy in Stellar Frontiers, where humanity has taken 
+                                its first steps into the vast cosmos. As interstellar explorers, players will discover 
+                                new worlds, encounter alien civilizations, and uncover the mysteries of deep space.
+                            </p>
+                            <p class="game-detail-description">
+                                This science fiction RPG combines hard sci-fi elements with thrilling space opera adventure. 
+                                Build your crew, customize your starship, and navigate the political complexities of a 
+                                galaxy filled with wonder and danger.
+                            </p>
+                            <div class="game-features">
+                                <h4>What's Included:</h4>
+                                <ul>
+                                    <li>Complete core rulebook (300+ pages)</li>
+                                    <li>Starship construction system</li>
+                                    <li>15 alien species to encounter</li>
+                                    <li>Galaxy-spanning campaign</li>
+                                    <li>Advanced technology rules</li>
+                                    <li>Space combat mechanics</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="game-detail-image">
+                            <div class="placeholder-image sci-fi large"></div>
+                        </div>
+                    </div>
+                    <div class="game-detail-footer">
+                        <button class="btn btn-primary">Coming Soon</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('games')">Back to Games</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="whispers-in-the-fog" class="game-detail-section">
+            <div class="container">
+                <div class="game-detail-content">
+                    <div class="game-detail-header">
+                        <h2 class="game-detail-title">Whispers in the Fog</h2>
+                        <div class="game-detail-tags">
+                            <span class="tag">Mystery</span>
+                            <span class="tag">Victorian</span>
+                            <span class="tag">Investigation</span>
+                        </div>
+                    </div>
+                    <div class="game-detail-body">
+                        <div class="game-detail-text">
+                            <p class="game-detail-description">
+                                Step into the fog-shrouded streets of Victorian London, where gaslight flickers against 
+                                the darkness and supernatural mysteries lurk around every corner. As investigators of 
+                                the paranormal, players must uncover conspiracies that threaten the very fabric of reality.
+                            </p>
+                            <p class="game-detail-description">
+                                This atmospheric mystery RPG blends historical authenticity with supernatural horror. 
+                                Use deduction, investigation, and courage to solve cases that the authorities dare not touch. 
+                                But beware—some knowledge comes at a terrible price.
+                            </p>
+                            <div class="game-features">
+                                <h4>What's Included:</h4>
+                                <ul>
+                                    <li>Victorian London setting guide</li>
+                                    <li>Investigation mechanics system</li>
+                                    <li>8 interconnected mystery scenarios</li>
+                                    <li>Period-accurate equipment and rules</li>
+                                    <li>Sanity and horror mechanics</li>
+                                    <li>Historical NPCs and locations</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="game-detail-image">
+                            <div class="placeholder-image mystery large"></div>
+                        </div>
+                    </div>
+                    <div class="game-detail-footer">
+                        <button class="btn btn-primary">Coming Soon</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('games')">Back to Games</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About Yellow Goat Games</h2>
+                        <p class="about-description">
+                            We are passionate creators dedicated to crafting immersive tabletop roleplaying experiences. 
+                            Our games blend rich storytelling, innovative mechanics, and stunning artwork to create 
+                            unforgettable adventures for players of all experience levels.
+                        </p>
+                        <p class="about-description">
+                            Founded by veteran game masters and storytellers, Yellow Goat Games emerged from countless 
+                            nights around the gaming table, driven by the belief that the best stories are the ones 
+                            we tell together.
+                        </p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Adventures Created</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">10k+</span>
+                                <span class="stat-label">Players Reached</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Award Nominations</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="large-goat-logo">
+                            <div class="goat-head">
+                                <div class="goat-horn left"></div>
+                                <div class="goat-horn right"></div>
+                                <div class="goat-face">
+                                    <div class="goat-eye left-eye"></div>
+                                    <div class="goat-eye right-eye"></div>
+                                    <div class="goat-snout"></div>
+                                </div>
+                                <div class="goat-beard"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to embark on your next adventure?</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Business Inquiries</h3>
+                            <p>contact@yellowgoatgames.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Follow Our Journey</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link">Twitter</a>
+                                <a href="#" class="social-link">Discord</a>
+                                <a href="#" class="social-link">Instagram</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Newsletter</h3>
+                            <p>Subscribe for game updates and exclusive content</p>
+                            <div class="newsletter-form">
+                                <input type="email" placeholder="Enter your email" class="newsletter-input">
+                                <button class="newsletter-button">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="goat-logo small">
+                        <div class="goat-head">
+                            <div class="goat-horn left"></div>
+                            <div class="goat-horn right"></div>
+                            <div class="goat-face">
+                                <div class="goat-eye left-eye"></div>
+                                <div class="goat-eye right-eye"></div>
+                                <div class="goat-snout"></div>
+                            </div>
+                            <div class="goat-beard"></div>
+                        </div>
+                    </div>
+                    <span>Yellow Goat Games</span>
+                </div>
+                <p class="footer-text">
+                    &copy; 2025 Yellow Goat Games. All rights reserved. Crafting adventures since day one.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
