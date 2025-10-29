@@ -16,9 +16,9 @@
                 <span class="company-name">Yellow Goat Games</span>
             </div>
             <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
+                <!--<a href="#home" class="nav-link">Home</a>-->
                 <a href="#games" class="nav-link">Games</a>
-                <a href="#about" class="nav-link">About</a>
+                <!--<a href="#about" class="nav-link">About</a>-->
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="hamburger" id="hamburger">
@@ -30,22 +30,16 @@
     </nav>
 
     <main>
+      
         <section id="home" class="hero">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    Forge Your <span class="highlight">Epic Tales</span>
+                    We like <span class="highlight">games</span>.<br>So we make them.
+                    <!--Forge Your <span class="highlight">Epic Tales</span>-->
                 </h1>
                 <p class="hero-subtitle">
-                    Immersive tabletop roleplaying games that transform ordinary moments into extraordinary adventures
+                    Immersive TTRPG games that transform ordinary moments into extraordinary adventures
                 </p>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary" onclick="scrollToSection('games')">
-                        Explore Our Games
-                    </button>
-                    <button class="btn btn-secondary" onclick="scrollToSection('about')">
-                        Learn More
-                    </button>
-                </div>
             </div>
             <div class="hero-background">
                 <div class="floating-element" style="--delay: 0s;"></div>
@@ -53,7 +47,7 @@
                 <div class="floating-element" style="--delay: 4s;"></div>
             </div>
         </section>
-
+   
         <section id="games" class="games-section">
             <div class="container">
                 <h2 class="section-title">Our Featured Games</h2>
@@ -62,231 +56,59 @@
                 <div class="games-grid">
                     <div class="game-card">
                         <div class="card-image">
-                            <div class="placeholder-image fantasy"></div>
+                            <div class="placeholder-image"><img src="public/MS_NSHG_retina.png" alt="Next Stop: Hell's Gate"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Next Stop: Hell's Gate</h3>
+                            <p class="card-description"><i>Mothership edition</i></p>
+                            <p class="card-description">Disguised as convicts aboard a prison train hurtling toward Hell's Gate, the most feared maximum-security facility, the players have two objectives:</p>
+                            <p class="card-description">Secure the sample.<br>Avoid Hell's Gate.</p>
+                            <button class="card-button" onclick="window.open('https://www.drivethrurpg.com/en/product/538294/next-stop-hell-s-gate-mothership-edition', '_blank')">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="placeholder-image"><img src="public/DiS_NSHG_retina.png" alt="Next Stop: Hell's Gate"></div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Next Stop: Hell's Gate</h3>
+                            <p class="card-description"><i>Death in Space edition</i></p>
+                            <p class="card-description">Disguised as convicts aboard a prison train hurtling toward Hell's Gate, the most feared maximum-security facility, the players have two objectives:</p>
+                            <p class="card-description">Secure the sample.<br>Avoid Hell's Gate.</p>
+                            <button class="card-button" onclick="window.open('https://www.drivethrurpg.com/en/product/517885/next-stop-hell-s-gate-death-in-space-edition', '_blank')">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="placeholder-image"><img src="public/MSHIP_USSCorpio_crawler.png" alt="USS Scorpio, please respond.."></div>
                         </div>
                         <div class="card-content">
                             <h3 class="card-title">USS Scorpio, please respond..</h3>
-                            <p class="card-description">A sci-fi horror adventure where survivors face alien mutations aboard a derelict ship adrift in deep space.</p>
-                            <div class="card-tags">
-                                <span class="tag">Sci-fi</span>
-                                <span class="tag">Horror</span>
-                                <span class="tag">Adventure</span>
-                            </div>
-                            <button class="card-button" onclick="scrollToSection('uss-scorpio')">Learn More</button>
+                            <p class="card-description"><i>Mothership</i></p>
+                            <p class="card-description"><i>-"Echo Echo Alpha Niner, this is USCSS Silverback acknowledging the activated G.M.E.P of the USS Scorpio. Requesting a response, over."</i></p>
+                            <p class="card-description">Nothing but silence, just the crackling of static noise.</p>
+                            <p class="card-description"><i>-"USS Scorpio, please respond."</i></p>
+                            <button class="card-button" onclick="window.open('https://www.drivethrurpg.com/en/product/440383/uss-scorpio-please-respond-a-mothership-pamphlet', '_blank')">Learn More</button>
                         </div>
                     </div>
 
                     <div class="game-card">
                         <div class="card-image">
-                            <div class="placeholder-image sci-fi"></div>
+                            <div class="placeholder-image"><img src="public/MSHIP_Atlas.png" alt="Atlas Bearing The Heavens"></div>
                         </div>
                         <div class="card-content">
-                            <h3 class="card-title">Stellar Frontiers</h3>
-                            <p class="card-description">Navigate the cosmos as interstellar explorers uncovering the mysteries of distant galaxies and alien civilizations.</p>
-                            <div class="card-tags">
-                                <span class="tag">Sci-Fi</span>
-                                <span class="tag">Exploration</span>
-                                <span class="tag">Adventure</span>
-                            </div>
-                            <button class="card-button" onclick="scrollToSection('stellar-frontiers')">Learn More</button>
+                            <h3 class="card-title">Atlas Bearing The Heavens</h3>
+                            <p class="card-description"><i>Mothership</i></p>
+                            <p class="card-description">For over a century, the colonial ship USCSS Atlas drifted through the void after an EMP knocked it off course. Now broken in two and marooned on an uncharted planet, the ship is a graveyard, its colonists vanished. The Disaster Recovery Unit awakens to silence, darkness, and the faint echoes of something... alive.</p>
+                            <p class="card-description">The mission was colonization. Now, it's survival.</p>
+                            <button class="card-button" onclick="window.open('https://legacy.drivethrurpg.com/product/504925/Atlas-Bearing-The-Heavens--A-Mothership-pamphlet', '_blank')">Learn More</button>
                         </div>
                     </div>
+                    
 
-                    <div class="game-card">
-                        <div class="card-image">
-                            <div class="placeholder-image mystery"></div>
-                        </div>
-                        <div class="card-content">
-                            <h3 class="card-title">Whispers in the Fog</h3>
-                            <p class="card-description">A Victorian mystery where investigators unravel supernatural conspiracies in the gaslit streets of London.</p>
-                            <div class="card-tags">
-                                <span class="tag">Mystery</span>
-                                <span class="tag">Victorian</span>
-                                <span class="tag">Investigation</span>
-                            </div>
-                            <button class="card-button" onclick="scrollToSection('whispers-in-the-fog')">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="uss-scorpio" class="game-detail-section">
-            <div class="container">
-                <div class="game-detail-content">
-                    <div class="game-detail-header">
-                        <h2 class="game-detail-title">USS Scorpio, please respond..</h2>
-                        <div class="game-detail-tags">
-                            <span class="tag">Sci-fi</span>
-                            <span class="tag">Horror</span>
-                            <span class="tag">Adventure</span>
-                        </div>
-                    </div>
-                    <div class="game-detail-body">
-                        <div class="game-detail-text">
-                    <p class="game-detail-description">
-                            In the cold void of space, a distress signal from the USS Scorpio draws your crew into a deadly encounter. 
-                            Aboard the derelict vessel, alien gas has unleashed grotesque mutations, and every corridor hides new 
-                            terrors. Time is running out before the ship, and everyone on it, is destroyed.
-                        </p>
-                        <p class="game-detail-description">
-                            This tense sci-fi horror pamphlet adventure for Mothership® drops your players into a high-stakes mission 
-                            of survival and mystery. Search for survivors, contain the mutagen, and escape before the Global Mesh 
-                            Emergency Protocol seals your fate.
-                        </p>
-                        <div class="game-features">
-                            <h4>What's Included:</h4>
-                            <ul>
-                                <li>Two-page pamphlet adventure ( color and BW )</li>
-                                <li>Hidden agendas to give the PCs for increased stress and chaos</li>
-                                <li>Player handouts ( letters and map )</li>
-                                <li>NPCS and mutated hostiles</li>
-                                <li>Three audio files to be played during the scenario</li>
-                                <li>A timing mechanism forcing PCs to take action</li>
-                                <li>A playthrough of the adventure as a story to use as inspiration</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <div class="game-detail-image">
-                            <div class="placeholder-image fantasy large"></div>
-                        </div>
-                    </div>
-                    <div class="game-detail-footer">
-                        <button class="btn btn-primary" onclick="window.open('https://www.drivethrurpg.com/en/product/440383/uss-scorpio-please-respond-a-mothership-pamphlet', '_blank')">DriveThrughRPG</button>
-                        <button class="btn btn-secondary" onclick="scrollToSection('games')">Back to Games</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="stellar-frontiers" class="game-detail-section">
-            <div class="container">
-                <div class="game-detail-content">
-                    <div class="game-detail-header">
-                        <h2 class="game-detail-title">Stellar Frontiers</h2>
-                        <div class="game-detail-tags">
-                            <span class="tag">Sci-Fi</span>
-                            <span class="tag">Exploration</span>
-                            <span class="tag">Adventure</span>
-                        </div>
-                    </div>
-                    <div class="game-detail-body">
-                        <div class="game-detail-text">
-                            <p class="game-detail-description">
-                                Embark on an epic journey across the galaxy in Stellar Frontiers, where humanity has taken 
-                                its first steps into the vast cosmos. As interstellar explorers, players will discover 
-                                new worlds, encounter alien civilizations, and uncover the mysteries of deep space.
-                            </p>
-                            <p class="game-detail-description">
-                                This science fiction RPG combines hard sci-fi elements with thrilling space opera adventure. 
-                                Build your crew, customize your starship, and navigate the political complexities of a 
-                                galaxy filled with wonder and danger.
-                            </p>
-                            <div class="game-features">
-                                <h4>What's Included:</h4>
-                                <ul>
-                                    <li>Complete core rulebook (300+ pages)</li>
-                                    <li>Starship construction system</li>
-                                    <li>15 alien species to encounter</li>
-                                    <li>Galaxy-spanning campaign</li>
-                                    <li>Advanced technology rules</li>
-                                    <li>Space combat mechanics</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="game-detail-image">
-                            <div class="placeholder-image sci-fi large"></div>
-                        </div>
-                    </div>
-                    <div class="game-detail-footer">
-                        <button class="btn btn-primary">Coming Soon</button>
-                        <button class="btn btn-secondary" onclick="scrollToSection('games')">Back to Games</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="whispers-in-the-fog" class="game-detail-section">
-            <div class="container">
-                <div class="game-detail-content">
-                    <div class="game-detail-header">
-                        <h2 class="game-detail-title">Whispers in the Fog</h2>
-                        <div class="game-detail-tags">
-                            <span class="tag">Mystery</span>
-                            <span class="tag">Victorian</span>
-                            <span class="tag">Investigation</span>
-                        </div>
-                    </div>
-                    <div class="game-detail-body">
-                        <div class="game-detail-text">
-                            <p class="game-detail-description">
-                                Step into the fog-shrouded streets of Victorian London, where gaslight flickers against 
-                                the darkness and supernatural mysteries lurk around every corner. As investigators of 
-                                the paranormal, players must uncover conspiracies that threaten the very fabric of reality.
-                            </p>
-                            <p class="game-detail-description">
-                                This atmospheric mystery RPG blends historical authenticity with supernatural horror. 
-                                Use deduction, investigation, and courage to solve cases that the authorities dare not touch. 
-                                But beware—some knowledge comes at a terrible price.
-                            </p>
-                            <div class="game-features">
-                                <h4>What's Included:</h4>
-                                <ul>
-                                    <li>Victorian London setting guide</li>
-                                    <li>Investigation mechanics system</li>
-                                    <li>8 interconnected mystery scenarios</li>
-                                    <li>Period-accurate equipment and rules</li>
-                                    <li>Sanity and horror mechanics</li>
-                                    <li>Historical NPCs and locations</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="game-detail-image">
-                            <div class="placeholder-image mystery large"></div>
-                        </div>
-                    </div>
-                    <div class="game-detail-footer">
-                        <button class="btn btn-primary">Coming Soon</button>
-                        <button class="btn btn-secondary" onclick="scrollToSection('games')">Back to Games</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="about" class="about-section">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-text">
-                        <h2 class="section-title">About Yellow Goat Games</h2>
-                        <p class="about-description">
-                            Yellow Goat Games is a new indie collaboration between Swedish RPG creators Mikael Ribeiro <i>(USS Scorpio, Please Respond, Atlas Bearing the Heavens)</i> and Tomas Eriksson <i>(Wanted! Borg, Destination Hollow Ground)</i>.
-                        </p>
-                        <p class="about-description">
-                            Between us, we’ve built derelict starships, wandering gods, and feasts you might regret attending. Our games lean into strange worlds, sharp choices, and stories that stay with you long after the dice stop rolling.
-                        </p>
-                        <p class="about-description">
-                            Now, we’ve joined forces to work on our first joint release, Next Stop: Hell’s Gate, a tabletop RPG adventure of cosmic dread, desperate choices, and high stakes. It’s only the beginning, but we’re taking the scenic route through the weird and the wonderful.
-                        </p>
-                       <!-- 
-                        <div class="stats">
-                            <div class="stat">
-                                <span class="stat-number">50+</span>
-                                <span class="stat-label">Adventures Created</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">10k+</span>
-                                <span class="stat-label">Players Reached</span>
-                            </div>
-                            <div class="stat">
-                                <span class="stat-number">5</span>
-                                <span class="stat-label">Award Nominations</span>
-                            </div>
-                        </div>
-                    -->
-                    </div>
-                    <div class="about-visual">
-                        <img src="public/goat_head_affinity_ready.png" alt="Yellow Goat Games" class="large-logo-image">
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -299,17 +121,22 @@
                 <div class="contact-content">
                     <div class="contact-info">
                         <div class="contact-item">
-                            <h3>Business Inquiries</h3>
-                            <p>contact@yellowgoatgames.com</p>
+                            <h3>E-mail</h3>
+                            <p>yellowgoatgames@gmail.com</p>
                         </div>
+          
+
                         <div class="contact-item">
                             <h3>Follow Our Journey</h3>
                             <div class="social-links">
-                                <a href="#" class="social-link">Twitter</a>
+                                <a href="https://www.drivethrurpg.com/en/publisher/30364/yellow-goat-games" class="social-link">DriveThruRPG</a>
+<!--
                                 <a href="#" class="social-link">Discord</a>
                                 <a href="#" class="social-link">Instagram</a>
+-->                                                      
                             </div>
                         </div>
+<!--                        
                         <div class="contact-item">
                             <h3>Newsletter</h3>
                             <p>Subscribe for game updates and exclusive content</p>
@@ -318,6 +145,7 @@
                                 <button class="newsletter-button">Subscribe</button>
                             </div>
                         </div>
+-->
                     </div>
                 </div>
             </div>
@@ -332,7 +160,7 @@
                     <span>Yellow Goat Games</span>
                 </div>
                 <p class="footer-text">
-                    &copy; 2025 Yellow Goat Games. All rights reserved. Crafting adventures since day one.
+                    &copy; 2025 Yellow Goat Games. All rights reserved.
                 </p>
             </div>
         </div>

@@ -79,8 +79,8 @@ body {
 }
 
 .logo-image {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 
@@ -310,7 +310,7 @@ body {
 .placeholder-image {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, var(--accent), var(--bg-lighter));
+    background: #000; /* solid black background for placeholder images */
     position: relative;
     display: flex;
     align-items: center;
@@ -330,9 +330,23 @@ body {
 }
 
 .placeholder-image::before {
-    content: '🎲';
-    font-size: 3rem;
-    opacity: 0.3;
+    /* decorative emoji removed */
+    display: none;
+}
+
+/* Make images inside .placeholder-image fill their container while preserving
+   aspect ratio. Use object-fit: cover to crop, or object-fit: contain to letterbox. */
+.placeholder-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* change to 'contain' if you prefer the full image visible, conver|contain,letterbox */
+    display: block; /* removes inline gaps */
+    position: relative;
+    z-index: 1;
+}
+
+.placeholder-image::before {
+    display: none;
 }
 
 .card-content {
