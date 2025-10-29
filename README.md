@@ -1,2 +1,2 @@
-# YellowGoatGames
-The home of all Yellow Goat Games stuff.
+# Yellow Goat Games
+Static web page for Yellow Goat Games.
